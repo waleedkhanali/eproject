@@ -1,0 +1,43 @@
+@font-face {
+  font-family: myfont;
+  src: url(../../fonts/fonts.woff2);
+}
+main {
+  font-family: myfont;
+    display: block; /* default value */
+    margin-top: 2em;
+    margin-bottom: 2em;
+    overflow: hidden;
+  }
+  
+ img{
+  width: 100%;
+ }
+ .nomination-intro{
+  margin-top: 50px;
+  width: 96%;
+  margin-left: 2%;
+ }
+ .content{
+  width: 65%;
+  float: left;
+ }
+ .quick-facts{
+  width: 33%;
+  float: left;
+  margin-left: 2%;
+ }
+ @media screen and (max-width: 500px) {
+  .content{
+    width: 100%;
+    float: left;
+   }
+   .quick-facts{
+    width: 100%;
+    float: left;
+    margin-left: 2%;
+   }
+   strong{
+    color: #0096FF;
+   }
+ }

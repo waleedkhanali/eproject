@@ -1,0 +1,18 @@
+
+main{
+    margin-top: 200px;
+}
+main h2{
+    text-align: center;
+    color: #dcaa55;
+}
+main table{
+    width: 80%;
+    margin-left: 10%;
+}
+th,td{
+    padding: 12px 14px;
+}
+table,tr,th,td{
+    border: 1px solid  black;
+}

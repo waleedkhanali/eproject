@@ -1,0 +1,203 @@
+.csstyling-h1-anim{
+  -webkit-animnimation: type 2s steps(40, end);
+  animation: type2 2s steps(40, end);
+  -webkit-animnimation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+ 
+}
+
+.csstyling-h2-anim{
+
+  
+  opacity: 0;
+  -webkit-animnimation: type2 2s steps(40, end);
+  animation: type2 2s steps(40, end);
+  -webkit-animnimation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animnimation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}.csstyling-h3-anim{
+
+  
+  opacity: 0;
+  -webkit-animnimation: type2 2s steps(40, end);
+  animation: type2 2s steps(40, end);
+  -webkit-animnimation-delay: 4s;
+  animation-delay: 4s;
+  -webkit-animnimation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}.csstyling-h4-anim{
+
+  
+  opacity: 0;
+  -webkit-animnimation: type2 2s steps(40, end);
+  animation: type2 2s steps(40, end);
+  -webkit-animnimation-delay: 6s;
+  animation-delay: 6s;
+  -webkit-animnimation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}.csstyling-h5-anim{
+
+  
+  opacity: 0;
+  -webkit-animnimation: type2 2s steps(40, end);
+  animation: type2 2s steps(40, end);
+  -webkit-animnimation-delay: 8s;
+  animation-delay: 8s;
+  -webkit-animnimation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}.csstyling-h6-anim{
+
+  
+  opacity: 0;
+  -webkit-animnimation: type2 2s steps(40, end);
+  animation: type2 2s steps(40, end);
+  -webkit-animnimation-delay: 10s;
+  animation-delay: 10s;
+  -webkit-animnimation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}.csstyling-h7-anim{
+
+  
+  opacity: 0;
+  -webkit-animnimation: type2 2s steps(40, end);
+  animation: type2 2s steps(40, end);
+  -webkit-animnimation-delay: 12s;
+  animation-delay: 12s;
+  -webkit-animnimation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}.csstyling-h8-anim{
+
+  
+  opacity: 0;
+  -webkit-animnimation: type     2 2s steps(40, end);
+  animation: type2 2s steps(40, end);
+  -webkit-animnimation-delay: 14s;
+  animation-delay: 14s;
+  -webkit-animnimation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}.csstyling-h9-anim{
+
+  
+  opacity: 0;
+  -webkit-animnimation: type2 2s steps(40, end);
+  animation: type2 2s steps(40, end);
+  -webkit-animnimation-delay: 16s;
+  animation-delay: 16s;
+  -webkit-animnimation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+  @keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @-webkit-keyframes blink {
+    50% {
+      border-color: tranparent;
+    }
+  }
+  /* section 2 anim  */
+   .section2-line-anim{
+    height: 450px;
+  }
+  .section2-h2-anim{
+    width: 90%;
+    overflow: none;
+  }
+  .section4-h2-anim{
+    width: 100%;
+    transform: translateX(0px);
+  }
+  .section2-img-anim {
+    transform: translateX(0px);
+    opacity: 1;
+    
+  }
+  /* section2 anim  */
+  /* section3 anim  */
+  .imgsec1-anim{
+    animation-timing-function: ease;
+    -webkit-animnimation-delay: 2s;
+    animation: imagesa 2s ;
+    -webkit-animnimation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+  }
+  .imgsec2-anim{
+    -webkit-animnimation-delay: 4s;
+    animation: imagesa 2s ;
+    -webkit-animnimation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+  }
+  .imgsec3-anim{
+    -webkit-animnimation-delay: 6s;
+    animation: imagesa 2s ;
+    -webkit-animnimation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+  }
+  .imgsec4-anim{
+    -webkit-animnimation-delay: 8s;
+    animation: imagesa 2s ;
+    -webkit-animnimation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+  }
+  .imgsec5-anim{
+    -webkit-animnimation-delay: 10s;
+    animation: imagesa 2s ;
+    -webkit-animnimation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+  }
+  .imgsec6-anim{
+    -webkit-animnimation-delay: 12s;
+    animation: imagesa 2s ;
+    -webkit-animnimation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-delay: 6s;
+  }
+  @keyframes imagesa {
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }

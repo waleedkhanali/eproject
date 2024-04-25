@@ -1,0 +1,46 @@
+@media screen and (max-width:500px) {
+    html{
+        max-width: 100vw;
+    }
+    .newslatter{
+        width: 96%;
+        margin-left: 2% !important;
+    }
+    .newslatter1{
+        width: 100%;
+        float: left;
+      }
+      .newslatter2{
+        width: 100%;
+        float: left; 
+      }
+    .newslatter1 h3{
+        font-size: large;
+    }
+    .newslatter1 p{
+        font-family: "myfont";
+        font-weight: 400;
+        font-size: small;
+        margin-top: 0px;
+    
+      }
+      .btn-31{
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+      }
+      .newslatter2 .input1{
+        padding: 12px 14px;
+        width: 100vw;
+        border: none;
+        transition: 1s ease-in-out all;
+        display: block;
+        
+      }
+      .check{
+        margin-left: 5px;
+        margin-top: 20px;
+        font-family: myfont;
+        font-size: smaller;
+      }
+}

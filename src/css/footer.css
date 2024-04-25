@@ -1,0 +1,125 @@
+.footer{
+    background-color: white;
+    scroll-snap-align: end;
+    float: left;
+    width: 100%;
+}
+
+.footer-icons a:nth-child(2){
+    font-size: 25px;
+    color: #1DA1F2;
+   
+}
+
+.fa-youtube{
+    font-size: 25px;
+    color: #CD201F;
+}
+.footer-icons a:nth-child(1){
+    font-size: 25px;
+    color: #4267B2;
+   
+}
+.fa-instagram{
+    font-size: 25px;
+    color: #E4405F;
+}
+.footer-div1{
+    width: 35%;
+}
+.footer-div2{
+    width: 21.6%;
+}
+
+.footer-div3{
+    width: 21.6%;
+}
+
+.footer-div4{
+    width: 21.6%;
+}
+.footer a{
+    display: block; 
+}
+.footer-line{
+    width: 100%;
+    height: 4px;
+    background-color: #DCAA55;
+    margin-top: 50px;
+}
+.footer-icons{
+    margin-top: 30px;
+    margin-bottom: 30px;
+   display: flex;
+   justify-content: center;
+   background-color: white;
+}
+.footer-icons a{
+    background-color: #ecf0f3;
+    position: relative;
+    height: 60px;
+    width: 60px;
+    margin: 0 10px;
+    display: inline-flex;
+    transition: all 0.3s ease;
+    box-shadow: -3px -3px 7px #ffffff,
+    3px 3px 5px ;
+    border-radius: 50%;
+}
+.footer-icons a:hover:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    background-color: #ecf0f3;
+    box-shadow: inset -3px -3px 7px #ffffff,
+    inset 3px 3px 5px #ceced1;
+}
+.footer-icons a i{
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+    font-size: 25px;
+}
+.footer-icons a:hover i{
+    transform: scale(0.9);
+}
+.footer-heading{
+    color: #DCAA55;
+    font-size: xx-large;
+    margin-left: 10%;
+}
+.footer-paragraph{
+    margin-left: 5vw;
+    width: 80%;
+}
+.footer-mainsection{
+    width: 80%;
+    margin-left: 10%;
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 20px;
+grid-row-gap: 0px;
+}
+.footer-section1{
+    grid-area: 1 / 1 / 2 / 2;
+}
+.footer-section2{
+    grid-area: 1 / 2 / 2 / 3;
+}
+.footer-section3{
+    grid-area: 1 / 3 / 2 / 4;
+}
+.footer-section-paragraph{
+    font-family: myfont;
+    margin-top: 10px;
+}
+
+
