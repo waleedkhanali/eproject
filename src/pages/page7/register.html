@@ -11,21 +11,22 @@
   <div class="container">
     <center>
       <h1>Register</h1>
-      <input type="text" placeholder="Your name">
+      <input type="text" placeholder="Your name" id="username">
       <input type="text"
-             placeholder="Your email">
+             placeholder="Your email" id="email" required>
       <br>
       <input type="password"
-             placeholder=" password">
+             placeholder=" password" id="password" required>
       <input type="password"
-             placeholder="Confirm Password">
+             placeholder="Confirm Password" id="cpassword" required>
       <br>
-      <input type="checkbox">
+      <input type="checkbox" required>
       <span>I have accept the agreement</span>
-      <button>Register</button>
+      <button onclick="submit()">Register</button>
       <br>
     </center>
   </div>
-  
+  <script src="script.js">
+  </script>
 </body>
 </html>
